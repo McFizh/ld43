@@ -3,7 +3,7 @@ const {ccclass, property} = cc._decorator;
 @ccclass
 export default class NewClass extends cc.Component {
     @property(cc.Label)
-    labelNode: cc.Label = null;
+    labelNode = null;
 
     start () {
         // On debugmode, the element is called GameDiv
