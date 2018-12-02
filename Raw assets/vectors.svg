@@ -70,7 +70,7 @@
          width="260" />
     </pattern>
     <filter
-       inkscape:label="Torn Edges"
+       inkscape:label="Drop Shadow"
        inkscape:menu="Distort"
        inkscape:menu-tooltip="Displace the outside of shapes and pictures without altering their content"
        height="1.4"
@@ -78,90 +78,90 @@
        width="1.4"
        x="-0.2"
        style="color-interpolation-filters:sRGB;"
-       id="filter850">
+       id="filter945">
       <feTurbulence
-         baseFrequency="0.062068965517241378"
-         numOctaves="2"
+         baseFrequency="0.026999999999999982"
+         numOctaves="2.2699386503067487"
          type="fractalNoise"
          result="result91"
-         id="feTurbulence844"
-         scale="7.5" />
+         id="feTurbulence939" />
       <feDisplacementMap
-         scale="7.5471698113207548"
+         scale="9.1999999999999993"
          result="result5"
          xChannelSelector="R"
          in="SourceGraphic"
          in2="result91"
-         id="feDisplacementMap846"
-         baseFrequency="0.157" />
+         id="feDisplacementMap941"
+         numOctaves="2" />
       <feComposite
          in="SourceGraphic"
          operator="atop"
          in2="result5"
-         id="feComposite848"
-         scale="7.5" />
-    </filter>
-    <filter
-       style="color-interpolation-filters:sRGB;"
-       inkscape:label="Drop Shadow"
-       id="filter925">
-      <feFlood
-         flood-opacity="0.498039"
-         flood-color="rgb(0,0,0)"
-         result="flood"
-         id="feFlood915" />
-      <feComposite
-         in="flood"
-         in2="SourceGraphic"
-         operator="in"
-         result="composite1"
-         id="feComposite917" />
-      <feGaussianBlur
-         in="composite1"
-         stdDeviation="3"
-         result="blur"
-         id="feGaussianBlur919" />
-      <feOffset
-         dx="0"
-         dy="0"
-         result="offset"
-         id="feOffset921" />
-      <feComposite
-         in="SourceGraphic"
-         in2="offset"
-         operator="over"
-         result="fbSourceGraphic"
-         id="feComposite923" />
+         id="feComposite943"
+         result="fbSourceGraphic" />
       <feColorMatrix
          result="fbSourceGraphicAlpha"
          in="fbSourceGraphic"
          values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
-         id="feColorMatrix927" />
+         id="feColorMatrix947" />
       <feFlood
-         id="feFlood929"
+         id="feFlood949"
          flood-opacity="0.498039"
          flood-color="rgb(0,0,0)"
          result="flood"
          in="fbSourceGraphic" />
       <feComposite
          in2="fbSourceGraphic"
-         id="feComposite931"
+         id="feComposite951"
          in="flood"
          operator="in"
          result="composite1" />
       <feGaussianBlur
-         id="feGaussianBlur933"
+         id="feGaussianBlur953"
          in="composite1"
          stdDeviation="3"
          result="blur" />
       <feOffset
-         id="feOffset935"
-         dx="3"
-         dy="3"
+         id="feOffset955"
+         dx="0"
+         dy="0"
          result="offset" />
       <feComposite
          in2="offset"
-         id="feComposite937"
+         id="feComposite957"
+         in="fbSourceGraphic"
+         operator="over"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix959" />
+      <feFlood
+         id="feFlood961"
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         in="fbSourceGraphic" />
+      <feComposite
+         in2="fbSourceGraphic"
+         id="feComposite963"
+         in="flood"
+         operator="in"
+         result="composite1" />
+      <feGaussianBlur
+         id="feGaussianBlur965"
+         in="composite1"
+         stdDeviation="3"
+         result="blur" />
+      <feOffset
+         id="feOffset967"
+         dx="0"
+         dy="0"
+         result="offset" />
+      <feComposite
+         in2="offset"
+         id="feComposite969"
          in="fbSourceGraphic"
          operator="over"
          result="composite2" />
@@ -174,9 +174,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.47930336"
-     inkscape:cx="579.25752"
-     inkscape:cy="520.09511"
+     inkscape:zoom="1.3556746"
+     inkscape:cx="907.58781"
+     inkscape:cy="299.6327"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -289,15 +289,337 @@
          y="115.47002"
          style="fill:#131158;fill-opacity:1;stroke-width:0.43846849"></tspan></text>
     <rect
-       style="opacity:1;fill:#83b4ff;fill-opacity:1;stroke:#158083;stroke-width:4.83173227;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter925)"
+       style="opacity:1;fill:#83b4ff;fill-opacity:1;stroke:#158083;stroke-width:4.83173227;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter945)"
        id="rect6531-2"
        width="156.54037"
        height="127.96655"
        x="125.14788"
        y="142.53308"
        ry="37.077049"
-       inkscape:export-xdpi="81.129997"
-       inkscape:export-ydpi="81.129997"
-       inkscape:export-filename="C:\Users\Pekka\Documents\ld43\assets\Scripts\Menu\window1.png" />
+       inkscape:export-xdpi="240.57001"
+       inkscape:export-ydpi="240.57001"
+       inkscape:export-filename="C:\Users\Pekka\Documents\ld43\assets\Scripts\Menu\window1.png"
+       transform="matrix(0.38541076,0,0,0.32896458,60.706531,98.558597)" />
+    <path
+       sodipodi:type="star"
+       style="opacity:1;fill:#add533;fill-opacity:1;stroke:#000000;stroke-width:1.05799997;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path971"
+       sodipodi:sides="7"
+       sodipodi:cx="34.777039"
+       sodipodi:cy="221.92577"
+       sodipodi:r1="18.283331"
+       sodipodi:r2="11.701332"
+       sodipodi:arg1="0.52359878"
+       sodipodi:arg2="0.97239773"
+       inkscape:flatsided="false"
+       inkscape:rounded="0.49"
+       inkscape:randomized="0"
+       d="m 50.610868,231.06743 c -2.268018,3.92832 -5.494386,-2.02881 -9.242234,0.52643 -3.747848,2.55524 0.618765,7.73497 -3.866606,8.41103 -4.485372,0.67606 -1.839506,-5.56063 -6.174018,-6.89765 -4.334511,-1.33702 -5.661646,5.30644 -8.986795,2.22116 -3.325149,-3.08529 3.20056,-4.90518 1.543361,-9.12766 -1.6572,-4.22247 -7.678723,-1.11794 -7.339744,-5.64129 0.338978,-4.52335 5.830538,-0.55603 8.098556,-4.48435 2.268017,-3.92832 -3.913564,-6.70049 -0.165716,-9.25573 3.747848,-2.55524 4.070002,4.21182 8.555374,3.53576 4.485371,-0.67606 2.798587,-7.23744 7.133099,-5.90042 4.334512,1.33702 -0.755328,5.80809 2.569821,8.89337 3.325149,3.08529 7.403346,-2.32444 9.060545,1.89804 1.6572,4.22247 -5.011881,3.03074 -5.35086,7.55409 -0.338978,4.52335 6.433234,4.3389 4.165217,8.26722 z"
+       inkscape:transform-center-x="-4.2137655"
+       inkscape:transform-center-y="-12.562027"
+       transform="rotate(5.2910374,31.60642,235.37558)"
+       inkscape:export-filename="C:\Users\Pekka\Documents\ld43\assets\Sprites\tower1a.png"
+       inkscape:export-xdpi="41.349998"
+       inkscape:export-ydpi="41.349998" />
+    <circle
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.05799997;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path973"
+       cx="35.817841"
+       cy="222.16876"
+       r="4.391264"
+       inkscape:export-filename="C:\Users\Pekka\Documents\ld43\assets\Sprites\tower1a.png"
+       inkscape:export-xdpi="41.349998"
+       inkscape:export-ydpi="41.349998" />
+    <rect
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.05799997;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect975"
+       width="3.3178437"
+       height="17.174721"
+       x="34.15892"
+       y="203.51486"
+       ry="1.6589218"
+       inkscape:export-filename="C:\Users\Pekka\Documents\ld43\assets\Sprites\tower1a.png"
+       inkscape:export-xdpi="41.349998"
+       inkscape:export-ydpi="41.349998" />
+    <path
+       sodipodi:type="star"
+       style="opacity:1;fill:#e5ea5c;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path998"
+       sodipodi:sides="7"
+       sodipodi:cx="35.769713"
+       sodipodi:cy="229.34402"
+       sodipodi:r1="2.1065414"
+       sodipodi:r2="0.86368197"
+       sodipodi:arg1="1.0191413"
+       sodipodi:arg2="1.4679403"
+       inkscape:flatsided="false"
+       inkscape:rounded="1.9775848e-016"
+       inkscape:randomized="0"
+       d="m 36.873747,231.13808 -1.015354,-0.93494 -0.802973,1.12263 0.0979,-1.37676 -1.378348,0.0722 1.137433,-0.78185 -0.9158,-1.03265 1.320457,0.4018 0.236365,-1.35984 0.509149,1.28289 1.210542,-0.66305 -0.685558,1.19794 1.273156,0.53303 -1.364026,0.21091 z"
+       inkscape:transform-center-x="-0.038046323"
+       inkscape:transform-center-y="-0.044990779"
+       inkscape:export-filename="C:\Users\Pekka\Documents\ld43\assets\Sprites\tower1a.png"
+       inkscape:export-xdpi="41.349998"
+       inkscape:export-ydpi="41.349998" />
+    <path
+       sodipodi:type="star"
+       style="opacity:1;fill:#add533;fill-opacity:1;stroke:#000000;stroke-width:1.05799997;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path971-6"
+       sodipodi:sides="7"
+       sodipodi:cx="34.777039"
+       sodipodi:cy="221.92577"
+       sodipodi:r1="18.283331"
+       sodipodi:r2="11.701332"
+       sodipodi:arg1="0.52359878"
+       sodipodi:arg2="0.97239773"
+       inkscape:flatsided="false"
+       inkscape:rounded="0.49"
+       inkscape:randomized="0"
+       d="m 50.610868,231.06743 c -2.268018,3.92832 -5.494386,-2.02881 -9.242234,0.52643 -3.747848,2.55524 0.618765,7.73497 -3.866606,8.41103 -4.485372,0.67606 -1.839506,-5.56063 -6.174018,-6.89765 -4.334511,-1.33702 -5.661646,5.30644 -8.986795,2.22116 -3.325149,-3.08529 3.20056,-4.90518 1.543361,-9.12766 -1.6572,-4.22247 -7.678723,-1.11794 -7.339744,-5.64129 0.338978,-4.52335 5.830538,-0.55603 8.098556,-4.48435 2.268017,-3.92832 -3.913564,-6.70049 -0.165716,-9.25573 3.747848,-2.55524 4.070002,4.21182 8.555374,3.53576 4.485371,-0.67606 2.798587,-7.23744 7.133099,-5.90042 4.334512,1.33702 -0.755328,5.80809 2.569821,8.89337 3.325149,3.08529 7.403346,-2.32444 9.060545,1.89804 1.6572,4.22247 -5.011881,3.03074 -5.35086,7.55409 -0.338978,4.52335 6.433234,4.3389 4.165217,8.26722 z"
+       inkscape:transform-center-x="-4.2137655"
+       inkscape:transform-center-y="-12.562027"
+       transform="rotate(5.2910373,61.562781,668.67661)"
+       inkscape:export-filename="C:\Users\Pekka\Documents\ld43\assets\Sprites\tower1b.png"
+       inkscape:export-xdpi="41.349998"
+       inkscape:export-ydpi="41.349998" />
+    <circle
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.05799997;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path973-6"
+       cx="75.90226"
+       cy="221.25258"
+       r="4.391264"
+       inkscape:export-filename="C:\Users\Pekka\Documents\ld43\assets\Sprites\tower1b.png"
+       inkscape:export-xdpi="41.349998"
+       inkscape:export-ydpi="41.349998" />
+    <rect
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.05799997;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect975-0"
+       width="3.3178437"
+       height="17.174721"
+       x="74.24334"
+       y="202.59868"
+       ry="1.6589218"
+       inkscape:export-filename="C:\Users\Pekka\Documents\ld43\assets\Sprites\tower1b.png"
+       inkscape:export-xdpi="41.349998"
+       inkscape:export-ydpi="41.349998" />
+    <g
+       id="g1041"
+       transform="translate(-4.9590775,-0.25315845)"
+       inkscape:export-filename="C:\Users\Pekka\Documents\ld43\assets\Sprites\tower1b.png"
+       inkscape:export-xdpi="41.349998"
+       inkscape:export-ydpi="41.349998">
+      <path
+         inkscape:transform-center-y="-0.044990779"
+         inkscape:transform-center-x="-0.038046323"
+         d="m 79.271407,230.07712 -1.015355,-0.93494 -0.802972,1.12263 0.0979,-1.37676 -1.378349,0.0721 1.137433,-0.78185 -0.915799,-1.03265 1.320456,0.4018 0.236365,-1.35984 0.509149,1.28289 1.210542,-0.66305 -0.685558,1.19794 1.273156,0.53303 -1.364025,0.21092 z"
+         inkscape:randomized="0"
+         inkscape:rounded="1.9775848e-016"
+         inkscape:flatsided="false"
+         sodipodi:arg2="1.4679403"
+         sodipodi:arg1="1.0191413"
+         sodipodi:r2="0.86368197"
+         sodipodi:r1="2.1065414"
+         sodipodi:cy="228.28307"
+         sodipodi:cx="78.167374"
+         sodipodi:sides="7"
+         id="path998-3"
+         style="opacity:1;fill:#e5ea5c;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         sodipodi:type="star" />
+      <path
+         inkscape:transform-center-y="-0.044990779"
+         inkscape:transform-center-x="-0.038046323"
+         d="m 84.563078,230.07712 -1.015354,-0.93494 -0.802973,1.12263 0.0979,-1.37676 -1.378348,0.0721 1.137433,-0.78185 -0.9158,-1.03265 1.320457,0.4018 0.236365,-1.35984 0.509149,1.28289 1.210542,-0.66305 -0.685558,1.19794 1.273156,0.53303 -1.364026,0.21092 z"
+         inkscape:randomized="0"
+         inkscape:rounded="1.9775848e-016"
+         inkscape:flatsided="false"
+         sodipodi:arg2="1.4679403"
+         sodipodi:arg1="1.0191413"
+         sodipodi:r2="0.86368197"
+         sodipodi:r1="2.1065414"
+         sodipodi:cy="228.28307"
+         sodipodi:cx="83.459045"
+         sodipodi:sides="7"
+         id="path998-3-1"
+         style="opacity:1;fill:#e5ea5c;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         sodipodi:type="star" />
+    </g>
+    <path
+       sodipodi:type="star"
+       style="opacity:1;fill:#add533;fill-opacity:1;stroke:#000000;stroke-width:1.05799997;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path971-6-1"
+       sodipodi:sides="7"
+       sodipodi:cx="34.777039"
+       sodipodi:cy="221.92577"
+       sodipodi:r1="18.283331"
+       sodipodi:r2="11.701332"
+       sodipodi:arg1="0.52359878"
+       sodipodi:arg2="0.97239773"
+       inkscape:flatsided="false"
+       inkscape:rounded="0.49"
+       inkscape:randomized="0"
+       d="m 50.610868,231.06743 c -2.268018,3.92832 -5.494386,-2.02881 -9.242234,0.52643 -3.747848,2.55524 0.618765,7.73497 -3.866606,8.41103 -4.485372,0.67606 -1.839506,-5.56063 -6.174018,-6.89765 -4.334511,-1.33702 -5.661646,5.30644 -8.986795,2.22116 -3.325149,-3.08529 3.20056,-4.90518 1.543361,-9.12766 -1.6572,-4.22247 -7.678723,-1.11794 -7.339744,-5.64129 0.338978,-4.52335 5.830538,-0.55603 8.098556,-4.48435 2.268017,-3.92832 -3.913564,-6.70049 -0.165716,-9.25573 3.747848,-2.55524 4.070002,4.21182 8.555374,3.53576 4.485371,-0.67606 2.798587,-7.23744 7.133099,-5.90042 4.334512,1.33702 -0.755328,5.80809 2.569821,8.89337 3.325149,3.08529 7.403346,-2.32444 9.060545,1.89804 1.6572,4.22247 -5.011881,3.03074 -5.35086,7.55409 -0.338978,4.52335 6.433234,4.3389 4.165217,8.26722 z"
+       inkscape:transform-center-x="-4.2137655"
+       inkscape:transform-center-y="-12.562027"
+       transform="rotate(5.2910373,88.305848,1117.9024)"
+       inkscape:export-filename="C:\Users\Pekka\Documents\ld43\assets\Sprites\tower1c.png"
+       inkscape:export-xdpi="41.349998"
+       inkscape:export-ydpi="41.349998" />
+    <circle
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.05799997;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path973-6-8"
+       cx="117.44149"
+       cy="220.70058"
+       r="4.391264"
+       inkscape:export-filename="C:\Users\Pekka\Documents\ld43\assets\Sprites\tower1c.png"
+       inkscape:export-xdpi="41.349998"
+       inkscape:export-ydpi="41.349998" />
+    <rect
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.05799997;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect975-0-1"
+       width="3.3178437"
+       height="17.174721"
+       x="115.78257"
+       y="202.04668"
+       ry="1.6589218"
+       inkscape:export-filename="C:\Users\Pekka\Documents\ld43\assets\Sprites\tower1c.png"
+       inkscape:export-xdpi="41.349998"
+       inkscape:export-ydpi="41.349998" />
+    <g
+       id="g1093"
+       transform="translate(13.065138,-16.404171)"
+       inkscape:export-filename="C:\Users\Pekka\Documents\ld43\assets\Sprites\tower1c.png"
+       inkscape:export-xdpi="41.349998"
+       inkscape:export-ydpi="41.349998">
+      <path
+         inkscape:transform-center-y="-0.044990779"
+         inkscape:transform-center-x="-0.038046323"
+         d="m 100.1406,246.44666 -1.015354,-0.93494 -0.802972,1.12262 0.0979,-1.37675 -1.378349,0.0721 1.137433,-0.78185 -0.915799,-1.03265 1.320456,0.4018 0.236365,-1.35985 0.509149,1.2829 1.210542,-0.66305 -0.685558,1.19794 1.273158,0.53303 -1.364027,0.21091 z"
+         inkscape:randomized="0"
+         inkscape:rounded="1.9775848e-016"
+         inkscape:flatsided="false"
+         sodipodi:arg2="1.4679403"
+         sodipodi:arg1="1.0191413"
+         sodipodi:r2="0.86368197"
+         sodipodi:r1="2.1065414"
+         sodipodi:cy="244.6526"
+         sodipodi:cx="99.036568"
+         sodipodi:sides="7"
+         id="path998-3-3"
+         style="opacity:1;fill:#e5ea5c;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         sodipodi:type="star" />
+      <path
+         inkscape:transform-center-y="-0.044990779"
+         inkscape:transform-center-x="-0.038046323"
+         d="m 105.43227,246.44666 -1.01535,-0.93494 -0.80297,1.12262 0.0979,-1.37675 -1.37834,0.0721 1.13743,-0.78185 -0.9158,-1.03265 1.32046,0.4018 0.23636,-1.35985 0.50915,1.2829 1.21054,-0.66305 -0.68556,1.19794 1.27316,0.53303 -1.36403,0.21091 z"
+         inkscape:randomized="0"
+         inkscape:rounded="1.9775848e-016"
+         inkscape:flatsided="false"
+         sodipodi:arg2="1.4679403"
+         sodipodi:arg1="1.0191413"
+         sodipodi:r2="0.86368197"
+         sodipodi:r1="2.1065414"
+         sodipodi:cy="244.6526"
+         sodipodi:cx="104.32824"
+         sodipodi:sides="7"
+         id="path998-3-1-8"
+         style="opacity:1;fill:#e5ea5c;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         sodipodi:type="star" />
+      <path
+         inkscape:transform-center-y="-0.044990779"
+         inkscape:transform-center-x="-0.038046323"
+         d="m 110.72391,246.44666 -1.01535,-0.93494 -0.80297,1.12262 0.0979,-1.37675 -1.37835,0.0721 1.13743,-0.78185 -0.9158,-1.03265 1.32046,0.4018 0.23636,-1.35985 0.50915,1.2829 1.21054,-0.66305 -0.68555,1.19794 1.27315,0.53303 -1.36402,0.21091 z"
+         inkscape:randomized="0"
+         inkscape:rounded="1.9775848e-016"
+         inkscape:flatsided="false"
+         sodipodi:arg2="1.4679403"
+         sodipodi:arg1="1.0191413"
+         sodipodi:r2="0.86368197"
+         sodipodi:r1="2.1065414"
+         sodipodi:cy="244.6526"
+         sodipodi:cx="109.61988"
+         sodipodi:sides="7"
+         id="path998-3-1-8-1"
+         style="opacity:1;fill:#e5ea5c;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         sodipodi:type="star" />
+    </g>
+    <path
+       style="opacity:1;fill:#e5ea5c;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path1095-6"
+       r="36.496281"
+       cy="239.42564"
+       cx="242.20259"
+       d=""
+       inkscape:connector-curvature="0" />
+    <path
+       style="opacity:1;fill:#e5ea5c;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path1095-1"
+       r="36.496281"
+       cy="239.42564"
+       cx="242.20259"
+       d=""
+       inkscape:connector-curvature="0" />
+    <path
+       style="opacity:1;fill:#e5ea5c;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path1145"
+       sodipodi:type="arc"
+       sodipodi:cx="214.45839"
+       sodipodi:cy="172.24429"
+       sodipodi:rx="20.700615"
+       sodipodi:ry="19.320574"
+       sodipodi:start="0"
+       sodipodi:end="0.010694784"
+       sodipodi:open="true"
+       d="m 235.159,172.24429 a 20.700615,19.320574 0 0 1 -0.001,0.20663" />
+    <circle
+       style="opacity:1;fill:#f0b909;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path1151"
+       cx="236.6236"
+       cy="211.30333"
+       r="8.5873604" />
+    <circle
+       style="opacity:1;fill:#f0b909;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path1151-5"
+       cx="259.21829"
+       cy="226.65862"
+       r="8.5873604" />
+    <circle
+       style="opacity:1;fill:#f0b909;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path1151-5-5"
+       cx="213.86974"
+       cy="226.65862"
+       r="8.5873604" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:1.25;font-family:'Font Awesome 5 Free';-inkscape-font-specification:'Font Awesome 5 Free';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="233.25688"
+       y="214.54602"
+       id="text1185"><tspan
+         sodipodi:role="line"
+         id="tspan1183"
+         x="233.25688"
+         y="214.54602"
+         style="stroke-width:0.26458332">$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:1.25;font-family:'Font Awesome 5 Free';-inkscape-font-specification:'Font Awesome 5 Free';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="255.911"
+       y="231.58855"
+       id="text1189"><tspan
+         sodipodi:role="line"
+         id="tspan1187"
+         x="255.911"
+         y="231.58855"
+         style="stroke-width:0.26458332">S</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:1.25;font-family:'Font Awesome 5 Free';-inkscape-font-specification:'Font Awesome 5 Free';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="209.77696"
+       y="231.58855"
+       id="text1193"><tspan
+         sodipodi:role="line"
+         id="tspan1191"
+         x="209.77696"
+         y="231.58855"
+         style="stroke-width:0.26458332">D</tspan></text>
   </g>
 </svg>
