@@ -80,7 +80,7 @@
        style="color-interpolation-filters:sRGB;"
        id="filter850">
       <feTurbulence
-         baseFrequency="0.18099999999999999"
+         baseFrequency="0.062068965517241378"
          numOctaves="2"
          type="fractalNoise"
          result="result91"
@@ -101,6 +101,71 @@
          id="feComposite848"
          scale="7.5" />
     </filter>
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Drop Shadow"
+       id="filter925">
+      <feFlood
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood915" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite917" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="3"
+         result="blur"
+         id="feGaussianBlur919" />
+      <feOffset
+         dx="0"
+         dy="0"
+         result="offset"
+         id="feOffset921" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="fbSourceGraphic"
+         id="feComposite923" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix927" />
+      <feFlood
+         id="feFlood929"
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         in="fbSourceGraphic" />
+      <feComposite
+         in2="fbSourceGraphic"
+         id="feComposite931"
+         in="flood"
+         operator="in"
+         result="composite1" />
+      <feGaussianBlur
+         id="feGaussianBlur933"
+         in="composite1"
+         stdDeviation="3"
+         result="blur" />
+      <feOffset
+         id="feOffset935"
+         dx="3"
+         dy="3"
+         result="offset" />
+      <feComposite
+         in2="offset"
+         id="feComposite937"
+         in="fbSourceGraphic"
+         operator="over"
+         result="composite2" />
+    </filter>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -109,9 +174,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.67783731"
-     inkscape:cx="328.28625"
-     inkscape:cy="559.86245"
+     inkscape:zoom="0.47930336"
+     inkscape:cx="579.25752"
+     inkscape:cy="520.09511"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -138,8 +203,8 @@
      id="layer1"
      transform="translate(0,-87)">
     <path
-       style="opacity:1;fill:none;stroke:#178f93;stroke-width:16.85237088;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       d="M 0,266.47198 H 61.672861 V 190.38686 H 135.4461 v -39.22392 h 71.43122 v 122.39775 h 90.16729"
+       style="opacity:1;fill:none;stroke:#178f93;stroke-width:4.15917349;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 0,173.27467 h 15.220892 v -18.77785 h 18.207271 v -9.68048 h 17.62926 v 30.20783 h 22.253331"
        id="path283"
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="82.088676"
@@ -159,13 +224,19 @@
        id="path834-2"
        cx="146.42921"
        cy="110.56051"
-       r="16.003717" />
+       r="16.003717"
+       inkscape:export-filename="C:\Users\Pekka\Documents\ld43\assets\Sprites\fastf_btn.png"
+       inkscape:export-xdpi="92.179939"
+       inkscape:export-ydpi="92.179939" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.53873825px;line-height:1.25;font-family:'Font Awesome 5 Free';-inkscape-font-specification:'Font Awesome 5 Free';letter-spacing:0px;word-spacing:0px;fill:#131158;fill-opacity:1;stroke:none;stroke-width:0.43846849"
        x="137.65985"
        y="117.13333"
-       id="text832-8"><tspan
+       id="text832-8"
+       inkscape:export-filename="C:\Users\Pekka\Documents\ld43\assets\Sprites\fastf_btn.png"
+       inkscape:export-xdpi="92.179939"
+       inkscape:export-ydpi="92.179939"><tspan
          sodipodi:role="line"
          id="tspan830-4"
          x="137.65985"
@@ -176,13 +247,19 @@
        id="path834-2-2"
        cx="184.23792"
        cy="110.42007"
-       r="16.003717" />
+       r="16.003717"
+       inkscape:export-filename="C:\Users\Pekka\Documents\ld43\assets\Sprites\play_btn.png"
+       inkscape:export-xdpi="92.179939"
+       inkscape:export-ydpi="92.179939" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.53873825px;line-height:1.25;font-family:'Font Awesome 5 Free';-inkscape-font-specification:'Font Awesome 5 Free';letter-spacing:0px;word-spacing:0px;fill:#131158;fill-opacity:1;stroke:none;stroke-width:0.43846849"
        x="176.56471"
        y="116.99709"
-       id="text832-8-2"><tspan
+       id="text832-8-2"
+       inkscape:export-filename="C:\Users\Pekka\Documents\ld43\assets\Sprites\play_btn.png"
+       inkscape:export-xdpi="92.179939"
+       inkscape:export-ydpi="92.179939"><tspan
          sodipodi:role="line"
          id="tspan830-4-0"
          x="176.56471"
@@ -193,17 +270,34 @@
        id="path834-2-2-7"
        cx="222.88104"
        cy="108.85874"
-       r="16.003717" />
+       r="16.003717"
+       inkscape:export-filename="C:\Users\Pekka\Documents\ld43\assets\Sprites\pause_btn.png"
+       inkscape:export-xdpi="92.179939"
+       inkscape:export-ydpi="92.179939" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.53873825px;line-height:1.25;font-family:'Font Awesome 5 Free';-inkscape-font-specification:'Font Awesome 5 Free';letter-spacing:0px;word-spacing:0px;fill:#131158;fill-opacity:1;stroke:none;stroke-width:0.43846849"
        x="215.20784"
        y="115.47002"
-       id="text832-8-2-8"><tspan
+       id="text832-8-2-8"
+       inkscape:export-filename="C:\Users\Pekka\Documents\ld43\assets\Sprites\pause_btn.png"
+       inkscape:export-xdpi="92.179939"
+       inkscape:export-ydpi="92.179939"><tspan
          sodipodi:role="line"
          id="tspan830-4-0-3"
          x="215.20784"
          y="115.47002"
          style="fill:#131158;fill-opacity:1;stroke-width:0.43846849"></tspan></text>
+    <rect
+       style="opacity:1;fill:#83b4ff;fill-opacity:1;stroke:#158083;stroke-width:4.83173227;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter925)"
+       id="rect6531-2"
+       width="156.54037"
+       height="127.96655"
+       x="125.14788"
+       y="142.53308"
+       ry="37.077049"
+       inkscape:export-xdpi="81.129997"
+       inkscape:export-ydpi="81.129997"
+       inkscape:export-filename="C:\Users\Pekka\Documents\ld43\assets\Scripts\Menu\window1.png" />
   </g>
 </svg>
