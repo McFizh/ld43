@@ -3,6 +3,9 @@ const {ccclass, property} = cc._decorator;
 @ccclass
 export default class NewClass extends cc.Component {
 
+    @property(cc.Label)
+    uilabel: cc.Label = null;
+
     //
     _paused: boolean;
     _money: number;
@@ -16,6 +19,7 @@ export default class NewClass extends cc.Component {
     // LIFE-CYCLE CALLBACKS:
     onLoad () {
         this.resetVariables();
+        this.updateUiLabel();
         setInterval( this.handleGameTick.bind(this), 1000 );
     }
 
@@ -35,6 +39,7 @@ export default class NewClass extends cc.Component {
     // **********************************************************************
     doReset() {
         this.resetVariables();
+        this.updateUiLabel();
     }
 
     resetVariables() {
@@ -48,6 +53,19 @@ export default class NewClass extends cc.Component {
         this._doubleSpeed = false;
     }
 
+    updateUiLabel() {
+        var txt =
+        "Health: "+this._health+"\n"+
+        "Money: "+this._money+"\n"+
+        "Level: "+this._level+" , wave: "+this._wave+" / 3"+"\n";
+
+        if(!this._waveRunning) {
+            txt+="Next wave in: "+this._nextWaveIn+" s";
+        }
+
+        this.uilabel.string = txt;
+    }
+
     handleGameTick() {
         // Do nothing while paused
         if(this._paused)
@@ -59,11 +77,9 @@ export default class NewClass extends cc.Component {
             if(this._nextWaveIn <= 0) {
                 this._nextWaveIn = 0;
                 this._waveRunning = true;
-
                 // TODO: Start wave
             }
-
-            console.log("Next wave in: ",this._nextWaveIn);
+            this.updateUiLabel();
         }
 
 
